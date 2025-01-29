@@ -9,6 +9,9 @@ namespace Vektorel.Inheritance
     {
         static void Main(string[] args)
         {
+
+            Developer sinan = new Developer();
+
             Developer d1 = new()
             {
                 IdentityNumber = 1,
