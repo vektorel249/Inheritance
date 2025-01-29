@@ -12,6 +12,8 @@ namespace Vektorel.Inheritance
 
             Developer sinan = new Developer();
             Developer sena = new Developer();
+            Developer hasan = new Developer();
+
             Developer d1 = new()
             {
                 IdentityNumber = 1,
