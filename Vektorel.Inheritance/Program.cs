@@ -11,7 +11,9 @@ namespace Vektorel.Inheritance
         {
 
             Developer sinan = new Developer();
+            Developer sena = new Developer();
             Developer hasan = new Developer();
+
             Developer d1 = new()
             {
                 IdentityNumber = 1,
@@ -20,6 +22,7 @@ namespace Vektorel.Inheritance
                 Salary = 1000,
                 StartDate = new DateOnly(2016, 5, 12)
             };
+          
             d1.Languages.Add(Language.CSharp);
             //if (d1.Languages != null)
             //{
